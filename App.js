@@ -1,5 +1,5 @@
 var movies = [], allMoviesGrid, favMovies, favGrid;
-const regex = /^[a-zA-Z0-9!@#\$%\^\&*\)\(+=._-]+$/
+const regex = /[!@#$%^&*(),.?":{}|<>]/g;
 class Movie {
     constructor(id, title, releaseDate, ratings, voteCount, posterPath) {
         this.id = id;

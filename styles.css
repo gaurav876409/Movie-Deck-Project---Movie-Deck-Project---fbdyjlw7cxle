@@ -55,3 +55,10 @@ footer {
     position: fixed;
     bottom: 0;
 }
+
+@media (max-width: 620px) {
+    .card-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
